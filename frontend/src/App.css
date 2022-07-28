@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  box-shadow: inset 0px 0px 150px 0px black;
+}
+
+/* main container for css of the page */
+.containerMain {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px 0px rgb(0, 79, 91);
+  min-height: 100vh;
+  /* border-radius: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 90vw;
+  max-height: 100vh;
+}
+
+/* css for the search box at the top of the page */
+.searchBarRow {
+  background-color: rgba(0, 0, 0, 1);
+  border-left: 2px solid rgb(128, 128, 128);
+  border-right: 2px solid rgb(128, 128, 128);
+  box-shadow: 0px 10px 20px -5px rgb(0, 93, 93),
+    0px -10px 20px -5px rgb(0, 93, 93);
+  margin-bottom: 25px;
+  margin-top: 2vh;
+  height: 12vh;
+}
+.searchBar {
+  padding: 5px;
+  padding-top: 2vh;
+}
+.searchFilters {
+  margin-right: 5px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+
+/* css for the tiles that display the item info */
+.songPic {
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.card-grid {
+  overflow-y: scroll;
+  height: 68vh;
+}
+.itemRow {
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 63, 70);
+
+  padding-top: 1vh;
+}
+
+.fav-img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 15px;
+}
+
+/* custom scrollbar to make the page feel better */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #676c6d;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}

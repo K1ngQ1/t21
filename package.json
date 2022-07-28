@@ -1,0 +1,28 @@
+{
+  "name": "t21-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "supertest": "^6.2.4"
+  },
+  "engines": {
+  	"node": "18.4.0",
+  	"npm": "8.12.1"
+  },
+  "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+}
