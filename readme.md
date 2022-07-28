@@ -10,5 +10,5 @@ How to launch the app:
 Security:
 	My backend is secured with helmet and I am not worried about the api keys leaking inside the backend files because the search api is opensource and does not need an api key to work.
 	
-Deployed App:
+Deployed App: https://t21pt2.herokuapp.com
 	
