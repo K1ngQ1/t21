@@ -28,6 +28,10 @@
     ]
   },
   "proxy": "http://localhost:8080/",
+  "engines": {
+  	"node": "18.4.0",
+  	"npm": "8.12.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
